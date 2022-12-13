@@ -2,11 +2,13 @@
 @color-black: #000000;
 @color-white: #ffffff;
 @color-gray: #B3B3B3;
+@color-gray-light: rgba(192, 192, 192, 0.4);
 @color-gray-dark : #1e1e1e;
 @color-red: #b50000;
 @color-red-dark: #B2071D;
 @color-blue: #2AA4F4;
 @color-blue-dark: #007AD9;
+@color-black-linear: rgba(0, 0, 0, 0.4);
 
 //font family
 @font-face {
@@ -23,14 +25,14 @@
 //font size 12,14,10,24,18,16
 @size-xs: 10px;
 @size-s: 12px;
-@size-m: 14px;
+@size-m: 14px; //
 @size-l: 16px;
 @size-xl: 18px;
 @size-2xl: 24px;
 
 //font weight 600,400,700,900,300
 @weight-xs: 300;
-@weight-s: 400;
+@weight-s: 400; //
 @weight-m: 600;
 @weight-l: 700;
 @weight-xl: 900;
@@ -38,12 +40,12 @@
 //line height 14,15,17,18,30,22,20,24
 @line-height-2xs: 14px;
 @line-height-xs: 15px;
-@line-height-s: 17px; 
+@line-height-s: 17px; //
 @line-height-m: 18px; 
-@line-height-xs: 20px;
-@line-height-xs: 22px;
-@line-height-xs: 24px;
-@line-height-xs: 30px;
+@line-height-l: 20px;
+@line-height-xl: 22px;
+@line-height-2xs: 24px;
+@line-height-3xl: 30px;
 
 //letter spacing 0.05em
 @spacing: 0.05em;
@@ -60,6 +62,7 @@
 @color-main: @color-black;
 @color-sub: @color-white;
 @color-btn: @color-red;
+@color-border: @color-gray-light;
 
 //font main
 @main-font-family : @family-averta;
@@ -68,5 +71,5 @@
 @main-line-height: @line-height-s;
 @main-letter-spacing: @spacing;
 @main-color-text: @color-text-main;
-@main-text-aligh: center;
+@main-text-align: center;
 
