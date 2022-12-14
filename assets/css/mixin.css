@@ -1,6 +1,32 @@
 @font-face {
-  font-family: Averta CY;
-  src: url('../font/Averta\ Cyrillic\ Thin.otf'), url('../font/Averta\ Cyrillic\ Regular.otf'), url('../font/Averta\ Cyrillic\ SemiBold.otf'), url('../font/Averta\ Cyrillic\ ExtraBold.otf'), url('../font/Averta\ Cyrillic\ Bold.otf');
+  font-family: "Averta CY";
+  src: url('../font/AvertaCY-Thin.eot');
+  src: url("../font/AvertaCY-Thin.woff") format('woff'), url("../font/Averta-Cyrillic-Thin.woff2") format('woff2'), url("../font/AvertaCY-Thin.ttf") format('truetype'), url("../font/AvertaCY-Thin.svg") format('svg');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Averta CY";
+  src: url('../font/AvertaCY-Regular.eot');
+  src: url('../font/AvertaCY-Regular.woff') format('woff'), url("../font/AvertaCY-Regular.woff2") format('woff2'), url("../font/AvertaCY-Regular.ttf") format('truetype'), url("../font/AvertaCY-Regular.wsvg") format('svg');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Averta CY";
+  src: url('../font/AvertaCY-Semibold.eot');
+  src: url('../font/AvertaCY-Semibold.woff') format('woff'), url("../font/AvertaCY-Semibold.woff2") format('woff2'), url("../font/AvertaCY-Semibold.ttf") format('truetype'), url("../font/AvertaCY-Semibold.wsvg") format('svg');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Averta CY";
+  src: url('../font/AvertaCY-Bold.eot');
+  src: url('../font/AvertaCY-Bold.woff') format('woff'), url("../font/AvertaCY-Bold.woff2") format('woff2'), url("../font/AvertaCY-Bold.ttf") format('truetype'), url("../font/AvertaCY-Bold.wsvg") format('svg');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Averta CY";
+  src: url('../font/AvertaCY-Extrabold.eot');
+  src: url('../font/AvertaCY-Extrabold.woff') format('woff'), url("../font/AvertaCY-Extrabold.woff2") format('woff2'), url("../font/AvertaCY-Extrabold.ttf") format('truetype'), url("../font/AvertaCY-Extrabold.wsvg") format('svg');
+  font-weight: 900;
 }
 * {
   padding: 0px;
@@ -8,7 +34,7 @@
   box-sizing: border-box;
 }
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Averta CY';
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -63,7 +89,7 @@ img {
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0px;
   color: #ffffff;
   text-align: left;
   text-transform: none;
@@ -85,4 +111,71 @@ img {
   color: #ffffff;
   text-align: left;
   text-transform: none;
+}
+.button-sub {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color: #000000;
+  text-align: center;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 11.5px 30px;
+  border: 1px outset transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button-sub:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #ffffff;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading-text {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+}
+.heading-text::before {
+  position: absolute;
+  content: "";
+  top: 15px;
+  left: -127px;
+  width: 120px;
+  height: 100%;
+  border-top: 1px solid #ffffff;
+}
+.heading-text::after {
+  position: absolute;
+  content: "";
+  top: 15px;
+  right: -127px;
+  width: 120px;
+  height: 100%;
+  border-top: 1px solid #ffffff;
+}
+.heading-sub {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 12.5px;
+}
+.heading-sub img {
+  max-width: 13px;
+  margin-left: 5px;
 }

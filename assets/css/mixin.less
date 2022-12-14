@@ -8,7 +8,7 @@
 }
 
 html{  
-    font-family: @family-monterrat;
+    font-family: @family-averta;
     font-size: @main-font-size;
     font-weight: @main-font-weight;
     line-height: @main-line-height;
@@ -86,6 +86,7 @@ img{
     .text(
         @font-weight: @weight-m,
         @text-align: left,
+        @letter-spacing : @spacing-none
     );
     text-transform: none;
 }
@@ -117,9 +118,103 @@ img{
     // .text();
 }
 
-.button{
-    
+//square
+.square(
+    @width: @square,
+    @border-radius: 50%,
+    @border-color : @color-sub
+){
+    width: @width;
+    height: @width;
+    border: 2px solid @border-color;
+    border-radius: @border-radius;
 }
 
+//button
+.button-main(
+    @color: @color-text-main,
+    @background-color: @color-main,
+    @border-color: @color-sub,
+    @color-hover: @color-text-sub,
+    @background-color-hover: @color-sub,
+    @border-color-hover: @color-none,
+    ){
+    .text(
+        @letter-spacing: @spacing-none,
+        @color: @color,
+    );
+    background-color: @background-color;
+    text-transform: uppercase;
+    padding: 11.5px 30px;
+    border: 1px outset @border-color;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover{
+        color : @color-hover;
+        background-color: @background-color-hover;
+        border-color: @border-color-hover;
+    }
+}
+
+.button-sub{
+    .button-main(
+        @color: @color-text-sub, 
+        @background-color: @color-sub, 
+        @border-color: @color-none,
+        @color-hover: @color-text-main,
+        @background-color-hover: @color-main,
+        @border-color-hover: @color-sub,);
+}
+
+//heading
+.heading{
+    .flex-center();
+    flex-direction: column;
+}
+
+.heading-text{
+    .text(
+        @font-size :@size-2xl,
+        @line-height : @line-height-3xl,
+        @font-weight : @weight-m
+    );
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+
+    &::before{
+        position: absolute;
+        content: "";
+        top: 15px;
+        left: -127px;
+        width: 120px;
+        height: 100%;
+        border-top:1px solid @color-sub;
+    }
+
+    &::after{
+        position: absolute;
+        content: "";
+        top: 15px;
+        right: -127px;
+        width: 120px;
+        height: 100%;
+        border-top:1px solid @color-sub;
+    }
+}
+
+.heading-sub{
+    .text(
+        @line-height : @line-height-2xs,
+        @letter-spacing : @spacing-none
+    );
+    // .flex-center();
+    margin-top: 12.5px;
+    img{
+        max-width: 13px;
+        margin-left: 5px;
+    }
+}
 
 

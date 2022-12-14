@@ -1,3 +1,5 @@
+@import './font-face.less';
+
 //color
 @color-black: #000000;
 @color-white: #ffffff;
@@ -9,17 +11,10 @@
 @color-blue: #2AA4F4;
 @color-blue-dark: #007AD9;
 @color-black-linear: rgba(0, 0, 0, 0.4);
+@color-transparent : transparent;
 
-//font family
-@font-face {
-    font-family: Averta CY;
-    src: url('../font/Averta\ Cyrillic\ Thin.otf'), 
-        url('../font/Averta\ Cyrillic\ Regular.otf'),
-        url('../font/Averta\ Cyrillic\ SemiBold.otf'),
-        url('../font/Averta\ Cyrillic\ ExtraBold.otf'),
-        url('../font/Averta\ Cyrillic\ Bold.otf');
-}
-@family-averta: 'Aveta CY';
+
+@family-averta: 'Averta CY';
 @family-monterrat: 'Montserrat', sans-serif;
 
 //font size 12,14,10,24,18,16
@@ -29,6 +24,7 @@
 @size-l: 16px;
 @size-xl: 18px;
 @size-2xl: 24px;
+@size-3xl: 36px;
 
 //font weight 600,400,700,900,300
 @weight-xs: 300;
@@ -46,10 +42,23 @@
 @line-height-xl: 22px;
 @line-height-2xs: 24px;
 @line-height-3xl: 30px;
+@line-height-4xl: 48px;
 
 //letter spacing 0.05em
 @spacing: 0.05em;
 @spacing-none: 0px;
+
+//width-block 1200, 1076, 790, 534, 380, 238
+@block-xs: 238px;
+@block-s: 380px;
+@block-m: 534px;
+@block-l : 790px;
+@block-xl: 1076px;
+@block-2xl: 1200px;
+
+
+//width-square 80px
+@square : 80px;
 
 
 //
@@ -63,6 +72,7 @@
 @color-sub: @color-white;
 @color-btn: @color-red;
 @color-border: @color-gray-light;
+@color-none: @color-transparent;
 
 //font main
 @main-font-family : @family-averta;
