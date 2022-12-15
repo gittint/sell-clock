@@ -144,6 +144,16 @@ img {
   max-width: 13px;
   margin-left: 5px;
 }
+.scroll {
+  overflow: auto;
+  /* ẩn scroll  */
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+.scroll::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
 .app {
   width: 100%;
   max-width: 1440px;
@@ -322,7 +332,52 @@ img {
     padding: 6.5px 16px;
   }
 }
-.banner__content,
+.banner__content {
+  overflow: auto;
+  /* ẩn scroll  */
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  background-color: #ffffff;
+  padding: 24px 0px;
+}
+.banner__content::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+.banner__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1300px;
+  padding: 0 50px;
+}
+.banner__item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: calc((100% - 160px) / 5);
+}
+.banner-item__icon {
+  width: 40px;
+}
+.banner-item__text {
+  font-size: 10px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+  .banner__list {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+}
 .body__brand,
 .body__collection,
 .body__product {
@@ -524,7 +579,7 @@ img {
     padding: 60px 0px 40px 0px;
   }
   .footer__item:nth-child(2) {
-    padding: 60px 0px 15px 0px;
+    padding: 40px 0px 15px 0px;
   }
   .footer__logo {
     width: 100%;

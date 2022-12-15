@@ -1,0 +1,48 @@
+@import '../variable.less';
+@import "../mixin.less";
+
+.banner__content{ //
+    .scroll(); // add
+    background-color: @color-sub;
+    padding: 24px 0px;
+}
+
+.banner__list{
+    .flex-between();
+    // .block-center(@max-width: 1200px);
+    width: 1300px; // add
+    padding: 0 50px; //add
+}
+
+.banner__item{
+    .flex-start();
+    width: calc((100% - 160px) / 5);
+}
+
+.banner-item__icon{
+    width: 40px;
+}
+
+.banner-item__text{
+    font-size: @size-xs;
+    line-height: @line-height-m;
+    color: @color-text-sub;
+    font-weight: @weight-l;
+    letter-spacing: @spacing-none;
+    text-align: left;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+@media (min-width:760px){
+    
+}
+
+@media (min-width:1024px){
+
+    .banner__list{
+        .block-center(@max-width: 1200px);
+        padding: 0px; 
+    }
+    
+}
