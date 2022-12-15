@@ -147,25 +147,28 @@
     display: inline-block;
     position: relative;
 
-    &::before{
-        position: absolute;
-        content: "";
-        top: 15px;
-        left: -127px;
-        width: 120px;
-        height: 100%;
-        border-top:1px solid @color-sub;
+    @media (min-width:760px){
+        &::before{
+            position: absolute;
+            content: "";
+            top: 15px;
+            left: -127px;
+            width: 120px;
+            height: 100%;
+            border-top:1px solid @color-sub;
+        }
+    
+        &::after{
+            position: absolute;
+            content: "";
+            top: 15px;
+            right: -127px;
+            width: 120px;
+            height: 100%;
+            border-top:1px solid @color-sub;
+        }
     }
 
-    &::after{
-        position: absolute;
-        content: "";
-        top: 15px;
-        right: -127px;
-        width: 120px;
-        height: 100%;
-        border-top:1px solid @color-sub;
-    }
 }
 
 .heading-sub{

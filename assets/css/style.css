@@ -131,23 +131,25 @@ img {
   display: inline-block;
   position: relative;
 }
-.heading-text::before {
-  position: absolute;
-  content: "";
-  top: 15px;
-  left: -127px;
-  width: 120px;
-  height: 100%;
-  border-top: 1px solid #ffffff;
-}
-.heading-text::after {
-  position: absolute;
-  content: "";
-  top: 15px;
-  right: -127px;
-  width: 120px;
-  height: 100%;
-  border-top: 1px solid #ffffff;
+@media (min-width: 760px) {
+  .heading-text::before {
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: -127px;
+    width: 120px;
+    height: 100%;
+    border-top: 1px solid #ffffff;
+  }
+  .heading-text::after {
+    position: absolute;
+    content: "";
+    top: 15px;
+    right: -127px;
+    width: 120px;
+    height: 100%;
+    border-top: 1px solid #ffffff;
+  }
 }
 .heading-sub {
   font-size: 14px;
@@ -454,23 +456,25 @@ img {
   display: inline-block;
   position: relative;
 }
-.brand-heading__text::before {
-  position: absolute;
-  content: "";
-  top: 15px;
-  left: -127px;
-  width: 120px;
-  height: 100%;
-  border-top: 1px solid #ffffff;
-}
-.brand-heading__text::after {
-  position: absolute;
-  content: "";
-  top: 15px;
-  right: -127px;
-  width: 120px;
-  height: 100%;
-  border-top: 1px solid #ffffff;
+@media (min-width: 760px) {
+  .brand-heading__text::before {
+    position: absolute;
+    content: "";
+    top: 15px;
+    left: -127px;
+    width: 120px;
+    height: 100%;
+    border-top: 1px solid #ffffff;
+  }
+  .brand-heading__text::after {
+    position: absolute;
+    content: "";
+    top: 15px;
+    right: -127px;
+    width: 120px;
+    height: 100%;
+    border-top: 1px solid #ffffff;
+  }
 }
 .brand__banner {
   display: flex;
