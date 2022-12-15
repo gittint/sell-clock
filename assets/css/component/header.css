@@ -358,12 +358,3 @@ img {
     padding: 6.5px 16px;
   }
 }
-.banner__content,
-.body__brand,
-.body__collection,
-.body__product {
-  display: none;
-}
-.footer {
-  display: none;
-}

@@ -37,9 +37,10 @@ html {
   font-family: 'Averta CY';
   font-size: 14px;
   font-weight: 400;
-  line-height: 17px;
+  line-height: auto;
   letter-spacing: 0.05em;
   color: #ffffff;
+  text-align: center;
 }
 ul {
   list-style: none;
@@ -79,7 +80,7 @@ img {
 .text-foot-title-u {
   font-size: 14px;
   font-weight: 600;
-  line-height: 17px;
+  line-height: auto;
   letter-spacing: 0.05em;
   color: #ffffff;
   text-align: left;
@@ -88,7 +89,7 @@ img {
 .text-foot-title-l {
   font-size: 14px;
   font-weight: 600;
-  line-height: 17px;
+  line-height: auto;
   letter-spacing: 0px;
   color: #ffffff;
   text-align: left;
@@ -97,7 +98,7 @@ img {
 .text-foot-desc-m {
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 14px;
   letter-spacing: 0px;
   color: #ffffff;
   text-align: left;
@@ -115,7 +116,7 @@ img {
 .button-sub {
   font-size: 14px;
   font-weight: 400;
-  line-height: 17px;
+  line-height: auto;
   letter-spacing: 0px;
   color: #000000;
   text-align: center;
@@ -169,7 +170,7 @@ img {
 .heading-sub {
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 14px;
   letter-spacing: 0px;
   color: #ffffff;
   text-align: center;
