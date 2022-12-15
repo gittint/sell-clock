@@ -77,42 +77,6 @@ img {
   align-items: center;
   justify-content: flex-start;
 }
-.text-foot-title-u {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: auto;
-  letter-spacing: 0.05em;
-  color: #ffffff;
-  text-align: left;
-  text-transform: uppercase;
-}
-.text-foot-title-l {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: auto;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-align: left;
-  text-transform: none;
-}
-.text-foot-desc-m {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-align: left;
-  text-transform: none;
-}
-.text-foot-desc-s {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-align: left;
-  text-transform: none;
-}
 .button-sub {
   font-size: 14px;
   font-weight: 400;
@@ -365,5 +329,275 @@ img {
   display: none;
 }
 .footer {
-  display: none;
+  background-color: #000000;
+}
+.footer__item {
+  padding: 20px 0px 20px 0px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.4);
+}
+.footer__logo {
+  width: 100%;
+  max-width: 205px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.footer-logo__img {
+  margin-bottom: 20px;
+}
+.footer-logo__img img {
+  width: auto;
+}
+.footer-logo__icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info__item {
+  margin-bottom: 40px;
+}
+.info__title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: auto;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.info__desc {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: none;
+  margin-top: 10px;
+}
+.inner__contact {
+  padding: 0px 10px 30px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.4);
+}
+.contact__title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: auto;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contact__desc {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: none;
+  margin-top: 10px;
+}
+.contact__logo {
+  width: 100%;
+  max-width: 380px;
+  margin-top: 20px;
+}
+.contact-logo__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-logo__item {
+  width: calc(100% / 5);
+}
+.contact-logo__bottom {
+  max-width: 124px;
+  margin-top: 20px;
+}
+.inner__local {
+  padding-top: 30px;
+}
+.local__btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.local-btn__item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #000000;
+  text-transform: uppercase;
+  padding: 11.5px 30px;
+  border: 1px outset #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+}
+.local-btn__item:hover {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: transparent;
+}
+.local-btn__item.active {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: #000000;
+  text-align: center;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 11.5px 30px;
+  border: 1px outset transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.local-btn__item.active:hover {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #ffffff;
+}
+.local__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.local__item {
+  width: calc((100% - 20px) / 3);
+  margin-top: 30px;
+}
+.local__title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: auto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: left;
+  text-transform: none;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.4);
+}
+.local__desc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-align: left;
+  text-transform: none;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+.local-desc__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.local-desc__text {
+  width: 100%;
+  margin-left: 15px;
+}
+.footer__end {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0px;
+  padding: 20px 0;
+}
+@media (min-width: 760px) {
+  .footer__inner {
+    padding: 0 20px;
+  }
+  .footer__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 0px 40px 0px;
+  }
+  .footer__item:nth-child(2) {
+    padding: 60px 0px 15px 0px;
+  }
+  .footer__logo {
+    width: 100%;
+    max-width: 238px;
+    margin: 0px ;
+  }
+  .footer-logo__icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .footer-icon__item {
+    margin-left: 20px;
+  }
+  .inner__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .info__title,
+  .info__desc {
+    text-align: left;
+  }
+  .inner__contact {
+    padding: 0px 0px 30px;
+  }
+  .contact__title,
+  .contact__desc {
+    text-align: left;
+  }
+  .local-btn__item {
+    margin: 0px 15px 0px 0px;
+  }
+  .local__list {
+    padding: 0px;
+  }
+  .local__item {
+    width: calc((100% - 40px) / 3);
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer__box {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .footer__inner {
+    width: 100%;
+    max-width: 927px;
+    padding: 0px;
+  }
+  .footer-icon__item:first-child {
+    margin-left: 0;
+  }
+  .inner__contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .contact__logo {
+    margin-left: 40px;
+    margin-top: 0px;
+  }
+  .contact-logo__item {
+    width: calc((100% - 80px) / 5);
+  }
+  .local__item {
+    width: calc((100% - 80px) / 3);
+  }
+  .local-desc__text {
+    max-width: 250px;
+  }
 }

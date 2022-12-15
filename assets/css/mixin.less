@@ -75,37 +75,37 @@ img{
     text-align: @text-align;
 }
 
-.text-foot-title-u{
+.text-foot-title-u(@text-align: center){
     .text(
         @font-weight: @weight-m,
-        @text-align: left,
+        @text-align: @text-align,
     );
     text-transform: uppercase;
 }
 
-.text-foot-title-l{
+.text-foot-title-l(@text-align: left){
     .text(
         @font-weight: @weight-m,
-        @text-align: left,
+        @text-align: @text-align,
         @letter-spacing : @spacing-none
     );
     text-transform: none;
 }
 
-.text-foot-desc-m{
+.text-foot-desc-m(@text-align: center){
     .text(
-        @line-height : @line-height-2xs,
-        @text-align: left,
+        @line-height : @line-height-2xl,
+        @text-align: @text-align,
         @letter-spacing: @spacing-none,
     );
     text-transform: none;
 }
 
-.text-foot-desc-s{
+.text-foot-desc-s(@text-align: left){
     .text(
         @font-weight: @weight-xs,
         @line-height : @line-height-l,
-        @text-align: left,
+        @text-align: @text-align,
         @letter-spacing: @spacing-none,
     );
     text-transform: none;

@@ -77,42 +77,6 @@ img {
   align-items: center;
   justify-content: flex-start;
 }
-.text-foot-title-u {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: auto;
-  letter-spacing: 0.05em;
-  color: #ffffff;
-  text-align: left;
-  text-transform: uppercase;
-}
-.text-foot-title-l {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: auto;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-align: left;
-  text-transform: none;
-}
-.text-foot-desc-m {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-align: left;
-  text-transform: none;
-}
-.text-foot-desc-s {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
-  letter-spacing: 0px;
-  color: #ffffff;
-  text-align: left;
-  text-transform: none;
-}
 .button-sub {
   font-size: 14px;
   font-weight: 400;
