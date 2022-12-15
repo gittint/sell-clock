@@ -1,5 +1,18 @@
 @font-face {
     font-family: 'Averta CY';
+    src: url('AvertaCY-Black.eot');
+    src: url('AvertaCY-Black.eot?#iefix') format('embedded-opentype'),
+        url('AvertaCY-Black.woff2') format('woff2'),
+        url('AvertaCY-Black.woff') format('woff'),
+        url('AvertaCY-Black.ttf') format('truetype'),
+        url('AvertaCY-Black.svg#AvertaCY-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
     src: url('AvertaCY-Regular.eot');
     src: url('AvertaCY-Regular.eot?#iefix') format('embedded-opentype'),
         url('AvertaCY-Regular.woff2') format('woff2'),
@@ -7,32 +20,6 @@
         url('AvertaCY-Regular.ttf') format('truetype'),
         url('AvertaCY-Regular.svg#AvertaCY-Regular') format('svg');
     font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Averta CY';
-    src: url('AvertaCY-Extrabold.eot');
-    src: url('AvertaCY-Extrabold.eot?#iefix') format('embedded-opentype'),
-        url('AvertaCY-Extrabold.woff2') format('woff2'),
-        url('AvertaCY-Extrabold.woff') format('woff'),
-        url('AvertaCY-Extrabold.ttf') format('truetype'),
-        url('AvertaCY-Extrabold.svg#AvertaCY-Extrabold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Averta CY';
-    src: url('AvertaCY-Thin.eot');
-    src: url('AvertaCY-Thin.eot?#iefix') format('embedded-opentype'),
-        url('AvertaCY-Thin.woff2') format('woff2'),
-        url('AvertaCY-Thin.woff') format('woff'),
-        url('AvertaCY-Thin.ttf') format('truetype'),
-        url('AvertaCY-Thin.svg#AvertaCY-Thin') format('svg');
-    font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
@@ -52,6 +39,45 @@
 
 @font-face {
     font-family: 'Averta CY';
+    src: url('AvertaCY-Extrabold.eot');
+    src: url('AvertaCY-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('AvertaCY-Extrabold.woff2') format('woff2'),
+        url('AvertaCY-Extrabold.woff') format('woff'),
+        url('AvertaCY-Extrabold.ttf') format('truetype'),
+        url('AvertaCY-Extrabold.svg#AvertaCY-Extrabold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-Light.eot');
+    src: url('AvertaCY-Light.eot?#iefix') format('embedded-opentype'),
+        url('AvertaCY-Light.woff2') format('woff2'),
+        url('AvertaCY-Light.woff') format('woff'),
+        url('AvertaCY-Light.ttf') format('truetype'),
+        url('AvertaCY-Light.svg#AvertaCY-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY Extrathin';
+    src: url('AvertaCY-Extrathin.eot');
+    src: url('AvertaCY-Extrathin.eot?#iefix') format('embedded-opentype'),
+        url('AvertaCY-Extrathin.woff2') format('woff2'),
+        url('AvertaCY-Extrathin.woff') format('woff'),
+        url('AvertaCY-Extrathin.ttf') format('truetype'),
+        url('AvertaCY-Extrathin.svg#AvertaCY-Extrathin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
     src: url('AvertaCY-Semibold.eot');
     src: url('AvertaCY-Semibold.eot?#iefix') format('embedded-opentype'),
         url('AvertaCY-Semibold.woff2') format('woff2'),
@@ -59,6 +85,19 @@
         url('AvertaCY-Semibold.ttf') format('truetype'),
         url('AvertaCY-Semibold.svg#AvertaCY-Semibold') format('svg');
     font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta CY';
+    src: url('AvertaCY-Thin.eot');
+    src: url('AvertaCY-Thin.eot?#iefix') format('embedded-opentype'),
+        url('AvertaCY-Thin.woff2') format('woff2'),
+        url('AvertaCY-Thin.woff') format('woff'),
+        url('AvertaCY-Thin.ttf') format('truetype'),
+        url('AvertaCY-Thin.svg#AvertaCY-Thin') format('svg');
+    font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
