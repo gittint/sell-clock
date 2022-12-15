@@ -1,32 +1,50 @@
 @font-face {
-  font-family: "Averta CY";
-  src: url('../font/AvertaCY-Thin.eot');
-  src: url("../font/AvertaCY-Thin.woff") format('woff'), url("../font/Averta-Cyrillic-Thin.woff2") format('woff2'), url("../font/AvertaCY-Thin.ttf") format('truetype'), url("../font/AvertaCY-Thin.svg") format('svg');
-  font-weight: 300;
+  font-family: 'Averta CY';
+  src: url('../font/AvertaCY-Black.eot');
+  src: url('../font/AvertaCY-Black.eot?#iefix') format('embedded-opentype'), url('../font/AvertaCY-Black.woff2') format('woff2'), url('../font/AvertaCY-Black.woff') format('woff'), url('../font/AvertaCY-Black.ttf') format('truetype'), url('../font/AvertaCY-Black.svg#AvertaCY-Black') format('svg');
+  font-weight: 900;
 }
 @font-face {
-  font-family: "Averta CY";
+  font-family: 'Averta CY';
   src: url('../font/AvertaCY-Regular.eot');
-  src: url('../font/AvertaCY-Regular.woff') format('woff'), url("../font/AvertaCY-Regular.woff2") format('woff2'), url("../font/AvertaCY-Regular.ttf") format('truetype'), url("../font/AvertaCY-Regular.wsvg") format('svg');
+  src: url('../font/AvertaCY-Regular.eot?#iefix') format('embedded-opentype'), url('../font/AvertaCY-Regular.woff2') format('woff2'), url('../font/AvertaCY-Regular.woff') format('woff'), url('../font/AvertaCY-Regular.ttf') format('truetype'), url('../font/AvertaCY-Regular.svg#AvertaCY-Regular') format('svg');
   font-weight: 400;
 }
 @font-face {
-  font-family: "Averta CY";
-  src: url('../font/AvertaCY-Semibold.eot');
-  src: url('../font/AvertaCY-Semibold.woff') format('woff'), url("../font/AvertaCY-Semibold.woff2") format('woff2'), url("../font/AvertaCY-Semibold.ttf") format('truetype'), url("../font/AvertaCY-Semibold.wsvg") format('svg');
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Averta CY";
+  font-family: 'Averta CY';
   src: url('../font/AvertaCY-Bold.eot');
-  src: url('../font/AvertaCY-Bold.woff') format('woff'), url("../font/AvertaCY-Bold.woff2") format('woff2'), url("../font/AvertaCY-Bold.ttf") format('truetype'), url("../font/AvertaCY-Bold.wsvg") format('svg');
+  src: url('../font/AvertaCY-Bold.eot?#iefix') format('embedded-opentype'), url('../font/AvertaCY-Bold.woff2') format('woff2'), url('../font/AvertaCY-Bold.woff') format('woff'), url('../font/AvertaCY-Bold.ttf') format('truetype'), url('../font/AvertaCY-Bold.svg#AvertaCY-Bold') format('svg');
   font-weight: 700;
 }
 @font-face {
-  font-family: "Averta CY";
+  font-family: 'Averta CY';
   src: url('../font/AvertaCY-Extrabold.eot');
-  src: url('../font/AvertaCY-Extrabold.woff') format('woff'), url("../font/AvertaCY-Extrabold.woff2") format('woff2'), url("../font/AvertaCY-Extrabold.ttf") format('truetype'), url("../font/AvertaCY-Extrabold.wsvg") format('svg');
-  font-weight: 900;
+  src: url('../font/AvertaCY-Extrabold.eot?#iefix') format('embedded-opentype'), url('../font/AvertaCY-Extrabold.woff2') format('woff2'), url('../font/AvertaCY-Extrabold.woff') format('woff'), url('../font/AvertaCY-Extrabold.ttf') format('truetype'), url('../font/AvertaCY-Extrabold.svg#AvertaCY-Extrabold') format('svg');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Averta CY';
+  src: url('../font/AvertaCY-Light.eot');
+  src: url('../font/AvertaCY-Light.eot?#iefix') format('embedded-opentype'), url('../font/AvertaCY-Light.woff2') format('woff2'), url('../font/AvertaCY-Light.woff') format('woff'), url('../font/AvertaCY-Light.ttf') format('truetype'), url('../font/AvertaCY-Light.svg#AvertaCY-Light') format('svg');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Averta CY Extrathin';
+  src: url('../font/AvertaCY-Extrathin.eot');
+  src: url('../font/AvertaCY-Extrathin.eot?#iefix') format('embedded-opentype'), url('../font/AvertaCY-Extrathin.woff2') format('woff2'), url('../font/AvertaCY-Extrathin.woff') format('woff'), url('../font/AvertaCY-Extrathin.ttf') format('truetype'), url('../font/AvertaCY-Extrathin.svg#AvertaCY-Extrathin') format('svg');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Averta CY';
+  src: url('../font/AvertaCY-Semibold.eot');
+  src: url('../font/AvertaCY-Semibold.eot?#iefix') format('embedded-opentype'), url('../font/AvertaCY-Semibold.woff2') format('woff2'), url('../font/AvertaCY-Semibold.woff') format('woff'), url('../font/AvertaCY-Semibold.ttf') format('truetype'), url('../font/AvertaCY-Semibold.svg#AvertaCY-Semibold') format('svg');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Averta CY';
+  src: url('../font/AvertaCY-Thin.eot');
+  src: url('../font/AvertaCY-Thin.eot?#iefix') format('embedded-opentype'), url('../font/AvertaCY-Thin.woff2') format('woff2'), url('../font/AvertaCY-Thin.woff') format('woff'), url('../font/AvertaCY-Thin.ttf') format('truetype'), url('../font/AvertaCY-Thin.svg#AvertaCY-Thin') format('svg');
+  font-weight: 100;
 }
 * {
   padding: 0px;
@@ -105,7 +123,7 @@ img {
 .heading-text {
   font-size: 24px;
   font-weight: 600;
-  line-height: 30px;
+  line-height: auto;
   letter-spacing: 0.05em;
   color: #ffffff;
   text-align: center;
@@ -144,6 +162,16 @@ img {
   max-width: 13px;
   margin-left: 5px;
 }
+.scroll {
+  overflow: auto;
+  /* ẩn scroll  */
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+.scroll::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
 .footer {
   background-color: #000000;
 }
@@ -162,6 +190,9 @@ img {
 }
 .footer-logo__img img {
   width: auto;
+}
+.footer__item:nth-child(2) .footer-logo__img {
+  margin-bottom: 35px;
 }
 .footer-logo__icon {
   display: flex;
@@ -215,7 +246,7 @@ img {
 }
 .contact__logo {
   width: 100%;
-  max-width: 380px;
+  max-width: 390px;
   margin-top: 20px;
 }
 .contact-logo__list {
@@ -228,10 +259,10 @@ img {
 }
 .contact-logo__bottom {
   max-width: 124px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .inner__local {
-  padding-top: 30px;
+  padding-top: 28px;
 }
 .local__btn {
   display: flex;
@@ -326,7 +357,7 @@ img {
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0px;
-  padding: 20px 0;
+  padding: 18px 6px 18px 0px;
 }
 @media (min-width: 760px) {
   .footer__inner {
@@ -337,7 +368,7 @@ img {
     align-items: center;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 60px 0px 40px 0px;
+    padding: 60px 0px 37px 0px;
   }
   .footer__item:nth-child(2) {
     padding: 40px 0px 15px 0px;
@@ -374,7 +405,7 @@ img {
     text-align: left;
   }
   .local-btn__item {
-    margin: 0px 15px 0px 0px;
+    margin: 0px 13px 0px 0px;
   }
   .local__list {
     padding: 0px;
@@ -398,6 +429,9 @@ img {
     max-width: 927px;
     padding: 0px;
   }
+  .footer__item:nth-child(2) .footer__inner {
+    padding-left: 5px;
+  }
   .inner__info {
     display: flex;
     align-items: center;
@@ -405,7 +439,7 @@ img {
     align-items: flex-start;
   }
   .info__item {
-    margin-right: 60px;
+    margin-right: 61px;
   }
   .info__item:last-child {
     margin-right: 0px;
@@ -417,13 +451,14 @@ img {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    padding: 0.5px 0px 30px;
   }
   .contact__logo {
-    margin-left: 40px;
-    margin-top: 0px;
+    margin-left: 36px;
+    margin-top: 15px;
   }
   .contact-logo__item {
-    width: calc((100% - 80px) / 5);
+    width: calc((100% - 40px) / 5);
   }
   .local__item {
     width: calc((100% - 80px) / 3);
