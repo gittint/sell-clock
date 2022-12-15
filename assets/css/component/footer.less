@@ -17,7 +17,7 @@
 }
 
 .footer-logo__img{
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 
     img{
         width: auto;
@@ -26,9 +26,6 @@
 
 .footer-logo__icon{ 
     .flex-between(); 
-}
-
-.inner__info{ 
 }
 
 .info__item{ 
@@ -147,7 +144,7 @@
         padding: 60px 0px 40px 0px;
 
         &:nth-child(2){
-            padding: 60px 0px 15px 0px;
+            padding: 40px 0px 15px 0px;
         }
     }
 
@@ -162,7 +159,7 @@
     }
 
     .footer-icon__item{
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .inner__info{
@@ -203,10 +200,27 @@
         .block-center(@max-width : 1200px);
     }
 
+    .footer-logo__img{
+        text-align: left;
+    }
+
     .footer__inner{
         width: 100%;
         max-width: 927px;
         padding: 0px;
+    }
+
+    .inner__info{
+        .flex-start();
+        align-items: flex-start;
+    }
+
+    .info__item{
+        margin-right: 60px;
+
+        &:last-child{
+            margin-right: 0px;
+        }
     }
 
     .footer-icon__item{
