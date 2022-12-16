@@ -189,6 +189,7 @@ img {
 }
 .body__product {
   padding-top: 37px;
+  padding-bottom: 40px;
 }
 .product__heading {
   display: flex;
