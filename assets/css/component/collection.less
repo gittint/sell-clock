@@ -1,0 +1,143 @@
+@import '../variable.less';
+@import "../mixin.less";
+
+
+.body__collection{
+    padding-top: 61px;
+}
+
+.collection__heading{
+    .heading();
+}
+
+.collection-heading__text{
+    .heading-text();
+}
+
+.collection-heading__sub{
+    .heading-sub();
+}
+
+.collection__banner{
+    margin: 41px 0px 40px 0px;
+}
+
+.collection-banner__item{
+    position: relative;
+}
+
+.collection-banner_content{
+    position: absolute;
+    top: 10%; 
+    left: 7%; 
+}
+
+.collection-content__heading{
+    font-weight : @weight-m;
+    font-size: @size-xl; 
+    letter-spacing: @spacing;
+    text-align : left;
+    text-transform: uppercase;
+}
+
+.collection-content__desc{
+    font-size: @size-s;
+    text-align : left;
+    letter-spacing: @spacing-none;
+    width: 100%;
+    max-width: 370px;
+    margin: 11px 0 13px 0px;
+}
+
+.collection-content__btn{
+    .button-sub();
+    display: inline-block;
+    float: left;
+}
+
+.collection-banner__img{
+    display: none;
+}
+
+
+// ===================================================
+
+.collection__box{
+    background-image: url(../img/collection-list-bg.svg);
+    padding: 0px 0px 20px; 
+}
+
+.collection__list{
+    .flex-between();
+    flex-wrap: wrap;
+}
+
+.collection__item{
+    width: calc((100% - 40px ) / 3); 
+    margin-bottom: 20px; 
+}
+
+.collection-item__link{
+    .flex-center();
+    flex-direction: column;
+}
+
+.collection-item__icon{
+    .flex-center();
+    .square();
+
+    img{
+        width: auto;
+    }
+}
+
+.collection-item__desc{
+    font-size : @size-s;
+    font-weight: @weight-m;
+    line-height : @line-height-xs;
+    letter-spacing : @spacing-none;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+@media (min-width:760px){
+    
+    .collection-content__heading{
+        font-size : @size-3xl;
+        font-weight : @weight-m;
+        line-height : @line-height-4xl;
+    }
+
+    .collection-content__desc{
+        font-size: @size-m;
+        line-height : @line-height-l;
+    }
+
+    .collection__box{
+        padding: 40px 0px;
+    }
+
+    .collection__list{
+        .block-center(@max-width:780px)
+    }
+
+    .collection__item{
+        width: calc((100% - 300px) / 6); 
+        margin-bottom: 0px; 
+    }
+}
+
+@media (min-width:1024px){
+    .collection-banner_content{
+        top: 78px;
+        left: 120px;
+    }
+
+    .collection-banner__img{
+        display: block;
+        max-width: 280px;
+        position: absolute;
+        bottom: -7px;
+        right: 120px;
+    }
+}
