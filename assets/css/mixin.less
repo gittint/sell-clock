@@ -107,6 +107,7 @@
     .text(
         @letter-spacing: @spacing-none,
         @color: @color,
+        @font-weight: @weight-m,
     );
     background-color: @background-color;
     text-transform: uppercase;
@@ -114,7 +115,7 @@
     border: 1px outset @border-color;
     cursor: pointer;
     transition: all 0.3s ease;
-
+    width: auto;
     &:hover{
         color : @color-hover;
         background-color: @background-color-hover;

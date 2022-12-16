@@ -1,0 +1,131 @@
+@import "../variable.less";
+@import "../mixin.less";
+
+.body__news{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.news__inner{
+    margin-top: 20px;
+}
+
+.news__heading{
+    .heading();
+}
+
+.news-heading__text{
+    .heading-text();
+}
+
+.news-heading__sub{
+    .heading-sub();
+}
+
+.article__list{
+    padding: 0 20px; 
+}
+
+.article__item{
+    .block-center(@max-width: 300px); 
+    margin-top: 20px;
+}
+
+.article-item__img{
+    min-width: 40%; 
+}
+
+.article-item__name{
+    font-size: @size-s;
+    font-weight: @weight-m;
+    letter-spacing: @spacing-none;
+    text-transform: uppercase;
+    margin: 10px 0; 
+}
+
+.article-item__desc{
+    font-size: @size-s;
+    letter-spacing: @spacing-none;
+    line-height: 15px;
+    text-align: left;
+}
+
+.article__btn{
+    .button-main();
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.news__video{
+    padding: 0 20px; 
+    margin-top: 40px; 
+}
+
+.video__active, .video__item{
+    cursor: pointer;
+}
+
+.video__list{
+    .flex-between();
+    margin-top: 40px; 
+}
+
+.video__item{
+    width: calc((100% - 40px) / 3);
+}
+
+@media (min-width:760px){
+
+    .article__item{
+        max-width: 100%;
+        margin: 0px 0px 16px 0px;
+    }
+
+    .article-item__link{
+        .flex-between();
+        align-items: flex-start;
+    }
+    
+    .article-item__img{
+        min-width: 240px;
+    }
+
+    .article-item__content{
+        margin-left: 20px;
+    }
+
+    .article-item__name{
+        margin: 19px 0px 16px 0px ; 
+        text-align: left;
+    }
+}
+
+@media (min-width:1024px){
+    .news__inner{
+        .flex-between();
+        align-items: flex-start;
+        .block-center(@max-width: 1200px);
+        margin-top: 20px;
+    }
+    
+    .news__article, .news__video{
+        width: calc((100% - 20px) /2);
+    }
+
+    .article__list{
+        padding: 0px;
+    }
+
+    .news__video{
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .video__list{
+        margin-top: 70px;
+    }
+    
+    .article__btn {
+        margin-top: -2px;
+    }
+}
