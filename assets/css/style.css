@@ -657,7 +657,7 @@ img {
   margin-left: 5px;
 }
 .collection__banner {
-  margin: 41px 0px 40px 0px;
+  margin: 41px 0px 0px 0px;
 }
 .collection-banner__item {
   position: relative;
@@ -708,12 +708,13 @@ img {
 }
 .collection__box {
   background-image: url(../img/collection-list-bg.svg);
-  padding: 0px 0px 20px;
+  padding: 40px 0px 20px;
 }
 .collection__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 .collection__item {
@@ -757,15 +758,15 @@ img {
     line-height: 20px;
   }
   .collection__box {
-    padding: 40px 0px;
+    padding: 36px 0px 40px 0px;
   }
   .collection__list {
     width: 100%;
-    max-width: 790px;
+    max-width: 700px;
     margin: 0 auto;
   }
   .collection__item {
-    width: calc((100% - 300px) / 6);
+    width: calc((100% - 200px) / 6);
     margin-bottom: 0px;
   }
 }
@@ -780,6 +781,14 @@ img {
     position: absolute;
     bottom: -7px;
     right: 120px;
+  }
+  .collection__list {
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+  }
+  .collection__item {
+    width: calc((100% - 300px) / 6);
   }
 }
 .footer {
