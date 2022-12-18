@@ -196,7 +196,7 @@ img {
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   background-color: #ffffff;
-  padding: 24px 0px;
+  padding: 28px 0px;
 }
 .banner__content::-webkit-scrollbar {
   width: 0 !important;
@@ -215,8 +215,20 @@ img {
   justify-content: flex-start;
   width: calc((100% - 160px) / 5);
 }
-.banner-item__icon {
-  width: 40px;
+.banner__item:nth-child(1) img {
+  width: 20.9px;
+}
+.banner__item:nth-child(2) img {
+  width: 30px;
+}
+.banner__item:nth-child(3) img {
+  width: 43.92px;
+}
+.banner__item:nth-child(4) img {
+  width: 33.1px;
+}
+.banner__item:nth-child(5) img {
+  width: 30px;
 }
 .banner-item__text {
   font-size: 10px;

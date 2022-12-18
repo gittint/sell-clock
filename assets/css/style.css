@@ -408,7 +408,7 @@ img {
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   background-color: #ffffff;
-  padding: 24px 0px;
+  padding: 28px 0px;
 }
 .banner__content::-webkit-scrollbar {
   width: 0 !important;
@@ -427,8 +427,20 @@ img {
   justify-content: flex-start;
   width: calc((100% - 160px) / 5);
 }
-.banner-item__icon {
-  width: 40px;
+.banner__item:nth-child(1) img {
+  width: 20.9px;
+}
+.banner__item:nth-child(2) img {
+  width: 30px;
+}
+.banner__item:nth-child(3) img {
+  width: 43.92px;
+}
+.banner__item:nth-child(4) img {
+  width: 33.1px;
+}
+.banner__item:nth-child(5) img {
+  width: 30px;
 }
 .banner-item__text {
   font-size: 10px;
@@ -537,7 +549,7 @@ img {
 }
 /* //brand */
 .body__brand {
-  padding-top: 60px;
+  padding-top: 62px;
 }
 .brand__heading {
   display: flex;
@@ -582,7 +594,7 @@ img {
   justify-content: space-between;
   flex-direction: column;
   margin-top: 70px;
-  margin: 70px 0px 37px;
+  margin: 68px 0px 37px;
 }
 .brand-banner__item {
   margin-bottom: 20px;
@@ -605,7 +617,7 @@ img {
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0px;
-  margin-top: 10px;
+  margin-top: 7px;
 }
 .brand__list {
   overflow: auto;
@@ -648,7 +660,7 @@ img {
   }
   .brand-banner__box {
     position: absolute;
-    bottom: 34px;
+    bottom: 35px;
     left: 0px;
   }
 }
@@ -785,6 +797,7 @@ img {
   cursor: pointer;
   transition: all 0.3s ease;
   width: auto;
+  font-weight: 400;
   display: inline-block;
   float: left;
 }
@@ -848,7 +861,7 @@ img {
     line-height: 20px;
   }
   .collection__box {
-    padding: 36px 0px 40px 0px;
+    padding: 37px 0px 40px 0px;
   }
   .collection__list {
     width: 100%;
@@ -1265,7 +1278,7 @@ img {
   margin-bottom: 20px;
 }
 .footer-logo__img {
-  margin-bottom: 14px;
+  margin-bottom: 15px;
 }
 .footer-logo__img img {
   width: auto;
@@ -1301,7 +1314,7 @@ img {
   margin-top: 10px;
 }
 .inner__contact {
-  padding: 0px 10px 30px;
+  padding: 0px 10px 29px;
   border-bottom: 1px solid rgba(192, 192, 192, 0.4);
 }
 .contact__title {
@@ -1341,7 +1354,7 @@ img {
   margin-top: 10px;
 }
 .inner__local {
-  padding-top: 28px;
+  padding-top: 29px;
 }
 .local__btn {
   display: flex;
@@ -1362,6 +1375,7 @@ img {
   cursor: pointer;
   transition: all 0.3s ease;
   width: auto;
+  font-weight: 400;
   margin: 0 10px;
 }
 .local-btn__item:hover {
@@ -1383,6 +1397,7 @@ img {
   cursor: pointer;
   transition: all 0.3s ease;
   width: auto;
+  font-weight: 400;
 }
 .local-btn__item.active:hover {
   color: #ffffff;
@@ -1423,16 +1438,17 @@ img {
   text-align: left;
   text-transform: none;
   align-items: flex-start;
-  margin-top: 15px;
+  margin: 15px 0px 0px 0px;
 }
 .local-desc__icon {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2px;
 }
 .local-desc__text {
   width: 100%;
-  margin-left: 15px;
+  margin-left: 16px;
 }
 .footer__end {
   font-size: 12px;
@@ -1452,7 +1468,7 @@ img {
     padding: 60px 0px 37px 0px;
   }
   .footer__item:nth-child(2) {
-    padding: 43px 0px 15px 0px;
+    padding: 40px 0px 12px 0px;
   }
   .footer__logo {
     width: 100%;
@@ -1486,7 +1502,7 @@ img {
     text-align: left;
   }
   .local-btn__item {
-    margin: 0px 13px 0px 0px;
+    margin: 0px 14px 0px 0px;
   }
   .local__list {
     padding: 0px;
