@@ -104,7 +104,7 @@ img {
   text-align: center;
   background-color: #ffffff;
   text-transform: uppercase;
-  padding: 11.5px 30px;
+  padding: 10.5px 29px;
   border: 1px outset transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -155,11 +155,11 @@ img {
 .heading-sub {
   font-size: 14px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: auto;
   letter-spacing: 0px;
   color: #ffffff;
   text-align: center;
-  margin-top: 14px;
+  margin-top: 12px;
 }
 .heading-sub img {
   max-width: 13px;

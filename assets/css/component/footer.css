@@ -104,7 +104,7 @@ img {
   text-align: center;
   background-color: #ffffff;
   text-transform: uppercase;
-  padding: 11.5px 30px;
+  padding: 10.5px 29px;
   border: 1px outset transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -155,11 +155,11 @@ img {
 .heading-sub {
   font-size: 14px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: auto;
   letter-spacing: 0px;
   color: #ffffff;
   text-align: center;
-  margin-top: 14px;
+  margin: 12px 0px 0px 4px;
 }
 .heading-sub img {
   max-width: 13px;
@@ -294,7 +294,7 @@ img {
   text-align: center;
   background-color: #000000;
   text-transform: uppercase;
-  padding: 11.5px 30px;
+  padding: 10.5px 29px;
   border: 1px outset #ffffff;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -316,7 +316,7 @@ img {
   text-align: center;
   background-color: #ffffff;
   text-transform: uppercase;
-  padding: 11.5px 30px;
+  padding: 10.5px 29px;
   border: 1px outset transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -376,9 +376,8 @@ img {
 }
 .footer__end {
   font-size: 12px;
-  line-height: 15px;
   letter-spacing: 0px;
-  padding: 18px 6px 18px 0px;
+  padding: 22px 6px 18px 0px;
 }
 @media (min-width: 760px) {
   .footer__inner {
@@ -426,7 +425,7 @@ img {
     text-align: left;
   }
   .local-btn__item {
-    margin: 0px 14px 0px 0px;
+    margin: 0px 16px 0px 0px;
   }
   .local__list {
     padding: 0px;
