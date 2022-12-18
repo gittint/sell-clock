@@ -159,7 +159,7 @@ img {
   letter-spacing: 0px;
   color: #ffffff;
   text-align: center;
-  margin-top: 12px;
+  margin: 12px 0px 0px 4px;
 }
 .heading-sub img {
   max-width: 13px;
@@ -189,7 +189,7 @@ img {
 }
 .app {
   width: 100%;
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
   background-color: #000000;
 }
