@@ -85,9 +85,14 @@
 .collection-item__icon{
     .flex-center();
     .square();
+    transition: all 0.2s ease;
 
     img{
         width: auto;
+    }
+
+    &:hover{
+        border-color: @color-main;
     }
 }
 

@@ -837,9 +837,13 @@ img {
   height: 80px;
   border: 2px solid #ffffff;
   border-radius: 50%;
+  transition: all 0.2s ease;
 }
 .collection-item__icon img {
   width: auto;
+}
+.collection-item__icon:hover {
+  border-color: #000000;
 }
 .collection-item__desc {
   font-size: 12px;
