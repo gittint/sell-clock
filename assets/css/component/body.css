@@ -639,7 +639,7 @@ img {
   font-weight: 600;
   letter-spacing: 0px;
   text-transform: uppercase;
-  margin-top: 18px;
+  margin-top: 16px;
 }
 @media (min-width: 760px) {
   .collection-content__heading {
